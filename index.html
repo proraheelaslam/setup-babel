@@ -5,9 +5,22 @@
 	<title></title>
 	<!-- Load Babel -->
 <!-- v6 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
-	<script src="dist/script.js" type="text/javascript"></script>
+	<script src="src/script.js" type="text/javascript"></script>
 </head>
 <body>
 
+        <header>
+            <h1>IndexedDB (<span>No</span>)</h1>
+        </header>
+        <article>
+            <label for="whish">Enter a wish:</label>
+            <input type="text" id="wish" />
+            <button id="btnSave">Keep it</button>
+            <div id="result">
+                <h2>My wishes:</h2>
+                <ul id="list"></ul>
+            </div>
+        </article>   
+ 
 </body>
 </html>
